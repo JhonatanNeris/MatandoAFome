@@ -1,0 +1,29 @@
+.home{
+    /* margin: 0 auto; */
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to bottom, #6507c3, #9198e5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;   
+    align-items: center;
+}
+a{
+    background: #fff;
+    padding: 1rem 4rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 48px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+}
+a:hover{
+    background-color: #6507c3;
+    color: #fff;
+    transition: .5s;
+}

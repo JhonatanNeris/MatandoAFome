@@ -1,0 +1,112 @@
+.cartItemContainer{
+    display: flex;
+    gap: 2rem;    
+    
+}
+.cartProductInfo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.cartItemImg{
+    background: linear-gradient(#D3C7DF 50%, #faf6f6);
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+}
+.cartItemImg img{
+    width: 11rem;
+}
+.cartItemInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.cartItemInfo h1{
+    font-size: 1.6rem;
+    color: #C9CC45;
+    font-weight: 700;
+}
+.cartItemInfo .quantity .quantityValue{
+    font-size: 1.3rem;
+}
+.cartItemInfo .quantity{
+    display: flex;
+    align-items: center;
+    gap: 1rem;    
+}
+.cartItemInfo .quantity .remove,
+.cartItemInfo .quantity .add{
+    width: 1.5rem;
+    height: 1.5rem;
+    border: 2px solid #7E3EBE;
+    border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+}
+.cartItemInfo .quantity .remove::after{
+    content: "";
+    width: 12px;
+    height: 2px;
+    color: #7E3EBE;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+    /* display: block; */
+    background-color: #7E3EBE;    
+    z-index: 9;
+}
+.cartItemInfo .quantity .add::after {
+    content: "";
+    width: 12px;
+    height: 2px;
+    color: #7E3EBE;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+    background-color: #7E3EBE;    
+    z-index: 9; 
+}
+.cartItemInfo .quantity .add::before {
+    content: "";
+    width: 2px;
+    height: 12px;
+    color: #7E3EBE;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+    background-color: #7E3EBE;    
+    z-index: 9; 
+}
+.cartItemContainer .cartItemDel{
+    width: 2rem;
+    height: 2rem;
+    border: 2px solid #df5151;
+    border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+    margin-left: 2rem;
+}
+.cartItemContainer .cartItemDel::after,
+.cartItemContainer .cartItemDel::before  {
+    content: "";
+    width: 18px;
+    height: 2.5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #df5151;
+    border-radius: 5px;   
+    line-height: 10px; 
+}
+.cartItemContainer .cartItemDel::after{
+    transform: translate(-50%, -50%) rotate(45deg);    
+}
+.cartItemContainer .cartItemDel::before{
+    transform: translate(-50%, -50%) rotate(-45deg);
+}

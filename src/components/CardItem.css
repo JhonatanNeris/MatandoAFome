@@ -1,0 +1,68 @@
+.cardItem{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: .3rem;
+}
+.CardItemContainer{
+    background: #D1BAE8;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 28px;
+    position: relative;
+}
+.CardItemContainer img{
+    width: 160px;
+}
+.CardItemContainer .buttonAdd{
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
+    background: #626C23;
+    bottom: -10px;
+    right: -20px;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.buttonAdd::after {
+    content: " ";
+    position: absolute;
+    display: block;
+    background-color: #fff;
+    height: 5px;
+    margin-top: -2.5px;
+    top: 50%;
+    left: 10px;
+    right: 10px;
+    z-index: 9;
+  }
+  .buttonAdd::before {
+    content: " ";
+    position: absolute;
+    display: block;
+    background-color: #fff;
+    width: 5px;
+    margin-left: -2.5px;
+    left: 50%;
+    top: 10px;
+    bottom: 10px;
+    z-index: 9;
+  }
+.cardItem .productInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .7rem;
+}
+.cardItem .productInfo h1{
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+.cardItem .productInfo p{
+    color: #626C23;
+    font-weight: 900;
+    font-size: 1.5rem;
+}

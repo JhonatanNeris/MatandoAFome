@@ -1,0 +1,41 @@
+.promoCard{
+    display: flex; 
+    align-items: flex-start;
+    width: 100%;
+}
+.promoCard h1{
+    font-style: normal;
+    font-weight: 500;
+
+}
+.containerPromoCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    width: 100%;
+    gap: .6rem;
+    
+}
+.promoBanner{
+    width: 100%;
+    background: linear-gradient(110deg, #6507c3, #9198e5);
+    color: #fff;
+    padding: 2rem;
+    border-radius: 28px;
+    position: relative;
+}
+.promoBanner span{
+    font-weight: bold;
+    font-size: 1.8rem;
+    letter-spacing: .7px;
+}
+.promoBanner p{
+    margin-top: .5rem;
+}
+.promoBanner .imgBanner{
+    position: absolute;
+    width: 280px;
+    right: -35px;
+    top: -30px;
+}

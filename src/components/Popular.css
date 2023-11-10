@@ -1,0 +1,11 @@
+.popularContainer{
+    display: flex; 
+    align-items: flex-start;
+    width: 100%;
+    flex-direction: column;
+}
+.popularCards{
+    margin-top: 1rem;
+    display: flex;
+    gap: 3rem;
+}
