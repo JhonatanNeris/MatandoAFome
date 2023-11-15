@@ -1,0 +1,18 @@
+.searchProducts{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    /* grid-auto-rows: minmax(100px, auto); */
+    gap: 2rem;
+    /* justify-content: space-around; */
+    align-content: center;
+    /* text-align: center; */
+    
+}
+@media (max-width:610px){
+    .searchProducts{        
+        grid-template-columns: 1fr 1fr; 
+        
+    }
+
+}

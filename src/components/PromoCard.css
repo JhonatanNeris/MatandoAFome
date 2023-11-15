@@ -36,6 +36,15 @@
 .promoBanner .imgBanner{
     position: absolute;
     width: 280px;
-    right: -35px;
+    /* right: -35px; */
+    right: -24px;
     top: -30px;
+}
+@media (max-width: 600px){
+    .promoBanner .imgBanner{        
+        width: 200px;        
+    }   
+    .promoBanner h1, .promoBanner span{
+        font-size: 1.5rem;
+    } 
 }

@@ -1,9 +1,11 @@
 .cardItem{
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
     gap: .3rem;
+    max-width: 12rem;
+    text-align: center;
+    margin: 0 auto;
 }
 .CardItemContainer{
     background: #D1BAE8;
@@ -11,6 +13,8 @@
     height: 10rem;
     border-radius: 28px;
     position: relative;
+    display: flex;
+    align-items: center;
 }
 .CardItemContainer img{
     width: 160px;
@@ -65,4 +69,10 @@
     color: #626C23;
     font-weight: 900;
     font-size: 1.5rem;
+}
+@media (max-width: 600px){
+    .cardItem{
+        max-width: 10rem;
+    }
+    
 }

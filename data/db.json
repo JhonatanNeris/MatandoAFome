@@ -1,0 +1,75 @@
+{
+    "products":[
+        {
+            "id": 1,
+            "name": "Hamburguer Carne",
+            "price": 20.99,
+            "img": "https://static.vecteezy.com/system/resources/previews/021/952/451/original/tasty-hamburger-on-transparent-background-png.png",
+            "type": "hamburguer"
+        },
+        {
+            "id": 2,
+            "name": "Hamburguer Frango",
+            "price": 20.98,
+            "img": "https://bobs.com.br/media/filer_public_thumbnails/filer_public/98/59/9859ebdb-be8b-423a-8f59-120e6ef260ae/036_bobs_altualizacao_cardapio_site_610x400_bobsburguerfrango.png__800x400_subsampling-2.png",
+            "type": "hamburguer"
+        },
+        {
+            "id": 3,
+            "name": "Big Macc",
+            "price": 19.99,
+            "img": "https://yata.s3-object.locaweb.com.br/8864d477074e316293156eda62063a3e83b5fc7c844469c6e068f694509e4b22",
+            "type": "hamburguer"
+        },
+        {
+            "id": 4,
+            "name": "X -salada",
+            "price": 17.99,
+            "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Cheeseburger.png/1024px-Cheeseburger.png",
+            "type": "hamburguer"
+        },
+        {
+            "id": 5,
+            "name": "X - Burguer",
+            "price": 18.99,
+            "img": "https://pngimg.com/d/burger_sandwich_PNG96779.png",
+            "type": "hamburguer"
+        },
+        {
+            "id": 6,
+            "name": "X - Burguer Bacon",
+            "price": 22.99,
+            "img": "https://files.passeidireto.com/417008c0-eab7-457b-8d66-825401dbdf16/417008c0-eab7-457b-8d66-825401dbdf16.png",
+            "type": "hamburguer"
+        },
+        {
+            "id": 7,
+            "name": "Duplo Cheddar Bacon",
+            "price": 29.99,
+            "img": "https://pngimg.com/d/burger_sandwich_PNG96712.png",
+            "type": "hamburguer"
+        },
+        {
+            "id": 8,
+            "name": "Pizza Margherita",
+            "price": 31.99,
+            "img": "https://png.pngtree.com/png-clipart/20230414/original/pngtree-pizza-pepperoni-png-image_9057057.png",
+            "type": "pizza"
+        },
+        {
+            "id": 9,
+            "name": "Pizza de Champignon",
+            "price": 32.99,
+            "img": "https://static.vecteezy.com/system/resources/previews/024/589/160/non_2x/top-view-pizza-with-ai-generated-free-png.png",
+            "type": "pizza"
+        },
+        {
+            "id": 10,
+            "name": "Coca-cola",
+            "price": 5.99,
+            "img": "https://icons.iconarchive.com/icons/michael/coke-pepsi/512/Coca-Cola-Can-icon.png",
+            "type": "drink"
+        }
+        
+    ]    
+}

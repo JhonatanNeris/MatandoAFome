@@ -1,17 +1,17 @@
 import React from 'react'
 import "./CardItem.css"
 
-const CardItem = () => {
+const CardItem = (props) => {
   return (
     <div className="cardItem">
         <div className='CardItemContainer'>
-            <img src="https://static.vecteezy.com/system/resources/previews/021/952/451/original/tasty-hamburger-on-transparent-background-png.png" alt="hamburguer" />  
+            <img src={props.img} alt="hamburguer" />  
             {/* <div className="buttonAdd"></div>  */}
             <button className='buttonAdd'></button>     
         </div>
         <div className="productInfo">
-            <h1>Burguer Carne</h1>
-            <p>R$<span>21.99</span></p>
+            <h1>{props.name}</h1>
+            <p>R$<span>{props.price}</span></p>
         </div>        
     </div>
     
