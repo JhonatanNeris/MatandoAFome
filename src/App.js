@@ -17,7 +17,8 @@ import {BrowserRouter, Routes, Route} from "react-router-dom";
 import { useState, useEffect } from 'react';
 
 //URL base para requisição dos produtos
-const url = "http://localhost:3000/products"
+//const url = "http://localhost:3000/products"
+const url = "https://json-matando-a-fome.vercel.app/products"
 
 function App() {
 

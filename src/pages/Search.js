@@ -12,7 +12,8 @@ import CardItem from '../components/CardItem';
 import Navbar from '../components/Navbar';
 
 //URL base para requisição dos produtos
-const url = "http://localhost:3000/products"
+//const url = "http://localhost:3000/products"
+const url = "https://json-matando-a-fome.vercel.app/products"
 
 const Search = () => {
 
@@ -42,8 +43,13 @@ const Search = () => {
                     {products.map((product) => (
                         // <li key={product.id}>
                         //     {product.name} - R$: {product.price}
-                        // </li>
-                        <CardItem name={product.name} price={product.price} img={product.img}/>
+                        // </li>                       
+                        <CardItem 
+                            key={product.id}
+                            name={product.name} 
+                            price={product.price} 
+                            img={product.img}
+                        />
                     ))}
                 </div>  
                 <Navbar/>             
