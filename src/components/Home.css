@@ -27,3 +27,13 @@ a:hover{
     color: #fff;
     transition: .5s;
 }
+@media (max-width:600px) {
+    .logo img{
+        width: 20rem;
+    }
+    .btnStart a{
+        padding: 1rem 3rem;
+        font-size: 1.2rem;
+    }
+    
+}

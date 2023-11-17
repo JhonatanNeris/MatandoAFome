@@ -110,3 +110,20 @@
 .cartItemContainer .cartItemDel::before{
     transform: translate(-50%, -50%) rotate(-45deg);
 }
+@media (max-width: 500px) {
+    .cartItemContainer{
+        gap: 1rem;   
+    }
+    .cartItemImg{       
+        padding: .5rem 0;
+    }
+    .cartItemImg img{
+        width: 8rem;
+    }
+    .cartItemInfo{
+        gap: 1rem;        
+    }
+    .cartItemInfo h1, .cartItemInfo h2{
+        font-size: 1.2rem;        
+    }
+}

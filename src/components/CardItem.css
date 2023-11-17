@@ -76,3 +76,18 @@
     }
     
 }
+@media (max-width: 500px){
+    .CardItemContainer{
+        max-width: 8rem;
+        max-height: 8rem;
+    }
+    .CardItemContainer img{
+        width: 8rem;
+    }
+    .cardItem .productInfo h1{        
+        font-size: 1rem;
+    }
+    .cardItem .productInfo p{
+        font-size: 1.3rem;
+    }
+}

@@ -48,3 +48,14 @@
         font-size: 1.5rem;
     } 
 }
+@media (max-width: 500px){
+    .promoBanner .imgBanner{        
+        width: 170px;        
+    }   
+    .promoBanner h1, .promoBanner span{
+        font-size: 1.1rem;
+    }
+    .promoBanner p{
+        font-size: .9rem;
+    }  
+}

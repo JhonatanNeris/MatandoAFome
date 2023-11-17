@@ -71,5 +71,10 @@
     display: flex;
     justify-content: center;
 }
-
+@media (max-width:500px) {
+    .cart h2, .cart h1, .cart span{
+        font-size: 1.4rem;
+    }
+    
+}
 
